@@ -1,0 +1,73 @@
+.navbar{
+    box-sizing: border-box;
+    padding: 0 2vw;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    font-family: 'Truculenta', sans-serif;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 69;
+}
+
+.navbar .logo{
+    flex-direction: column;
+}
+
+.navbar .logo h2{
+    position:relative;
+    bottom: -10px;
+    font-size: 6vh;
+    margin: 0;
+    color: #0081cf;
+}
+
+.navbar .logo h1{
+    position: relative;
+    top: -10px;
+    font-size: 7vh;
+    margin: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: #0081cf;
+}
+
+
+.btn {
+  background-color: #0a6bff;
+  margin: 0 1vw;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  height: 10vh;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.btn:hover {
+  background-color: #065dd8;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}

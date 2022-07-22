@@ -1,0 +1,40 @@
+.meta .header{
+    height: 100vh;
+    background-color: #000;
+    color: white;
+    flex-wrap: wrap;
+}
+.header .heading{
+    z-index: 99;
+    flex-direction: column;
+    height: 100%;
+ }
+
+.heading h1{
+    font-family: 'Teko', sans-serif;
+    margin: 2vh 0;
+    padding: 0;
+    line-height: 45px;
+    text-transform: capitalize;
+    font-size: 19vh;
+
+}
+
+.btn2{
+    border: none;
+    background-color: rgb(0, 129, 207);
+    color: white;
+    font-size: 5vh;
+    box-shadow: rgba(0, 129, 207, 0.3) 0px 19px 38px, rgba(0, 129, 207, 0.22) 0px 15px 12px;
+    font-family: 'Teko', sans-serif;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin: 4vh 0;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.btn2:hover{
+    box-shadow: rgba(0, 129, 207, 0.4) 0px 5px, rgba(0, 129, 207, 0.3) 0px 10px, rgba(0, 129, 207, 0.2) 0px 15px, rgba(0, 129, 207, 0.1) 0px 20px, rgba(0, 129, 207, 0.05) 0px 25px;
+    transform: scale(1.1,1.1);
+}

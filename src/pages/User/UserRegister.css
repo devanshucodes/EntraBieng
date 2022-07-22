@@ -1,0 +1,97 @@
+.left-content{
+    height: 100%;
+    width: 50%;
+    /* align-items: flex-end; */
+}
+
+.left-content img{
+    height: 90%;
+}
+
+.right-content{
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right-content .form{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-top: none;
+    padding: 1vh 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3vh;
+    width: 95%;
+    height: 73%;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 3vh ;
+    
+}
+
+.form .form-item{
+    box-sizing: border-box;
+    width: 50%;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2vh 0;
+}
+
+.form-item input{
+    font-size: 3vh;
+    border-radius: 5px;
+    border: grey solid 1px;
+    padding: 5px 10px;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-item input[type="button"]{
+    background-color: #0081cf;
+    border: none;
+    width: 98%;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+.form-item select{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    border: grey solid 1px;
+    font-size: 3vh;
+    padding: 5px 10px;
+    width: 97%;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-item input:focus{
+    outline: none;
+}
+
+.nav{
+    width: 95%;
+}
+
+.nav-item{
+    font-size: 4vh;
+    width: 50%;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+.nav .active{
+    border: 1px solid grey;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.hidden{
+    display: none;
+}

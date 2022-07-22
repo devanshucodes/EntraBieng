@@ -1,0 +1,112 @@
+.header {
+    height: 60vh;
+    width: 100%;
+    font-size: 4vh;
+}
+
+.header .left-content {
+    box-sizing: border-box;
+    padding: 0 2vw;
+    width: 53%;
+    height: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header .right-content {
+    width: 50%;
+    height: 100%;
+}
+
+.right-content img{
+    position: relative;
+    bottom: -30vh;
+}
+
+.left-content h1{
+    color: #0081cf;
+}
+.left-content .animation{
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.animation h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4vh;
+}
+.type::after {
+    content: 'I';
+    animation: cursor 1.1s infinite step-start;
+  }
+  
+  @keyframes cursor {
+    50% {
+      opacity: 0;
+    }
+  }
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.border {
+    height: 39vh;
+    background-image: url('../../../public/wave.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 10vh;
+    box-sizing: border-box;
+    padding: 0 3vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: #0081cf;
+    -webkit-text-stroke-color: white;
+}
+
+.cover-container{
+    height: 100vh;
+    width: 100%;
+}
+
+.blue{
+    background-color: #0081cf;
+    color: white;
+}
+
+.right-content{
+    width: 50%;
+    height: 100%;
+}
+
+.left-content{
+    width: 50%;
+    height: 100%;
+}
+
+#diff{
+    flex-direction: column;
+    font-size: 13vh;
+    justify-content: flex-end;
+    font-family: 'Teko', sans-serif;
+}
+
+#diff h1{
+    font-family: 'Truculenta', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    text-transform: lowercase;
+    -webkit-text-fill-color: #0081cf;
+    -webkit-text-stroke-color: white;
+}
+
+#diff_cards{
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-right: 1vw;
+}
